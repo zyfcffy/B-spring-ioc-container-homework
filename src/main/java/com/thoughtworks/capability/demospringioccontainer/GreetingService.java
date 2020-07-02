@@ -14,6 +14,8 @@ public class GreetingService {
     }
 
     String sayHi() {
+        foo.hi();
+        bar.hi();
         return "hello world";
     }
 }

@@ -10,4 +10,12 @@ public class Foo {
     public Foo(Bar bar) {
         this.bar = bar;
     }
+
+    public void hi() {
+        System.out.println("Hi, " + bar.name());
+    }
+
+    public String name() {
+        return "Foo";
+    }
 }
